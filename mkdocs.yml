@@ -1,21 +1,23 @@
-site_name: hhhhhhhh
-
-nav:
-  - Home: index.md
-  - Introduction: pages/introduction.md
-  - Leaderboard: pages/leaderboard.md
+site_name: AIOPSLAB
 
 theme: 
   name: material
-  logo: icon.png
+  logo: imgs/logo.png
   palette:
-    primary: light blue
+    primary: blue
 
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://fosstodon.org/@squidfunk
+
+extra_css:
+  - assets/css/style.css
+  - assets/css/all.min.css
+
+extra_javascript:
+  - assets/js/leaderboard.js
 
 copyright: Copyright &copy; 2024 AIOPSLAB
 
